@@ -1,8 +1,5 @@
 <?php
-//setting API key
-
 define("API_KEY", '97w2kvv4i9sgxkhvlyds1qo3');
-
 function get_listings($page=1){
 
     $url = "https://openapi.etsy.com/v2/listings/active?keywords=unicorn,unicorns&includes=Images:1:0&api_key=" . API_KEY;
